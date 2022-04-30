@@ -2,7 +2,30 @@ import mx from '../mxgraph';
 import { COLOR } from './constants';
 import FiberTree from './FiberTree';
 
-export default function FiberTreeGraph(container, snapshoot) {
+export default class FiberTreeGraph {
+  constructor(container) {
+    this.container = container;
+    this.graph = null;
+  }
+  show(snapshoot) {
+    if(this.graph) {
+      this.graph.destroy();
+    }
+
+    this.graph = _FiberTreeGraph(this.container, snapshoot)
+  }
+
+  getXml() {
+    if(this.graph) {
+      const enc = new mx.mxCodec();
+      const model = this.graph.getModel();
+      const node = enc.encode(model);
+      return node;
+    }
+  }
+}
+
+function _FiberTreeGraph(container, snapshoot) {
   const graph = new mx.mxGraph(container);
   
   // graph设置

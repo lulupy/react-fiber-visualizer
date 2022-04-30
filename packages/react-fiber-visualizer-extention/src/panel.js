@@ -12,9 +12,11 @@ button.addEventListener('click', () => {
   })
 })
 
+const container = document.querySelector('#container')
+const graph = new FiberTreeGraph(container)
 port.onMessage.addListener((message) => {
-  const container = document.querySelector('#container')
-  new FiberTreeGraph(container, message)
+  
+  graph.show(message);
 });
 
 

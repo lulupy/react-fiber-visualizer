@@ -1,4 +1,4 @@
-import { Button } from 'antd';
+import { Button, Modal } from 'antd';
 import React from 'react';
 import FiberTreeGraph from 'fiber-tree-graph'
 
@@ -6,28 +6,24 @@ import FiberTreeGraph from 'fiber-tree-graph'
 class FiberViewer extends React.PureComponent {
   componentDidMount() {
     const { snapshoot } = this.props;
+    this.graph = new FiberTreeGraph(this.container);
     if(snapshoot) {
-      this.graph = FiberTreeGraph(this.container, snapshoot);
+      this.graph.show(snapshoot)
     }
     
   }
-  componentWillReceiveProps() {
 
-  }
   componentDidUpdate() {
     const { snapshoot } = this.props;
-    if(this.graph) {
-      this.graph.destroy();
-    }
-    if(snapshoot) {
-      this.graph = FiberTreeGraph(this.container, snapshoot);
-    }
+    this.graph.show(snapshoot)
   }
   getXml = () => {
-    // const xml = this.graph.toXml()
-    // var enc = new mx.mxCodec();
-    // const model = this.graph.getModel();
-    // var node = enc.encode(model);
+    const xml = this.graph.getXml()
+    if(xml) {
+      Modal.info({
+        content: xml.outerHTML,
+      })
+    }
   }
   render() {
     return (

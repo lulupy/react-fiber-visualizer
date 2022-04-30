@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 chrome.devtools.panels.create(
-    "fiber",
+    "Fiber",
     "",
     "pages/panel.html",
     function(panel) {

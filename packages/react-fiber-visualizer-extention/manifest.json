@@ -1,0 +1,25 @@
+{
+  "name": "react fiber visualizer",
+  "description": "react fiber visualizer",
+  "version": "1.0",
+  "manifest_version": 3,
+  "devtools_page": "pages/devtools.html",
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://127.0.0.1:3000/*"],
+      "run_at": "document_start",
+      "js": ["dist/content-script.js"]
+    }
+  ],
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "web_accessible_resources" : [
+    {
+      "resources": ["dist/content-script.js", "dist/injected-script.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

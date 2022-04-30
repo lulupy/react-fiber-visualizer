@@ -3,7 +3,6 @@ import React from 'react';
 import FiberTreeGraph from 'fiber-tree-graph'
 
 
-
 class FiberViewer extends React.PureComponent {
   componentDidMount() {
     const { snapshoot } = this.props;

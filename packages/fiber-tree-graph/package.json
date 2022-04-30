@@ -1,0 +1,20 @@
+{
+  "name": "fiber-tree-graph",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "dist/"
+  ],
+  "scripts": {
+    "dev": "webpack-dev-server --config webpackDev.config.js",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "mxgraph": "^4.2.2",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}

@@ -1,0 +1,10 @@
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+.workInProgress circle {
+  fill: rgb(28, 156, 230);
+}
+
+

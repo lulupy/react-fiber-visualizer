@@ -1,0 +1,23 @@
+.root{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.viewer{
+  flex-grow: 1;
+  border: 1px solid #111;;
+}
+
+.item{
+  margin: 5px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: bisque;
+  text-align: center
+}
+.item.selected,.item:hover{
+  background-color: azure;
+}

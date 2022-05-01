@@ -19,7 +19,7 @@ module.exports = {
       directory: path.join(appPath, './dist'),
     },
     compress: true,
-    port: 9000,
+    port: 9001,
   },
   
 }

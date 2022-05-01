@@ -54,6 +54,8 @@ function _FiberTreeGraph(container, snapshoot) {
   parent.geometry = new mx.mxGeometry(100);
   graph.getModel().beginUpdate();
 
+  const fiberRootCell = graph.insertVertex(parent, null, 'fiberRoot',0, 0, 60, 30, `isFiber=1;shape=ellipse;fillColor=${COLOR.orange};strokeColor=#666666;`);
+  if(snapshoot.alternateTree) {
     const alternateTree = new FiberTree({
       graph,
       fiberTree: {
@@ -61,23 +63,30 @@ function _FiberTreeGraph(container, snapshoot) {
         workInProgress: snapshoot.workInProgress,
       },
     });
+    alternateTree.createTree();
+    graph.insertEdge(parent, null, '', fiberRootCell, alternateTree.getRoot(), 'edgeStyle=none;curved=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;');
+  }
+
+  if(snapshoot.currentTree) {
     const currentTree = new FiberTree({
       graph,
       fiberTree: snapshoot.currentTree,
     });
-    alternateTree.createTree();
+    
     currentTree.createTree();
-
-    const fiberRootCell = graph.insertVertex(parent, null, 'fiberRoot',0, 0, 60, 30, `isFiber=1;shape=ellipse;fillColor=${COLOR.orange};strokeColor=#666666;`);
     graph.insertEdge(parent, null, 'current', fiberRootCell, currentTree.getRoot());
-    graph.insertEdge(parent, null, '', fiberRootCell, alternateTree.getRoot(), 'edgeStyle=none;curved=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;');
-    // graph.insertEdge(parent, null, 'alternate', alternateTree.getRoot(), currentTree.getRoot());
-    // graph.insertEdge(parent, null, 'alternate', currentTree.getRoot(), alternateTree.getRoot());
-    treeLayout.execute(parent);
+
+  }
+
+  
+  
+  
+
+  treeLayout.execute(parent);
 
 
 
-    graph.getModel().endUpdate();
+  graph.getModel().endUpdate();
 
 
   return graph;

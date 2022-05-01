@@ -16,10 +16,14 @@ window.addEventListener('message', (event) => {
   }
   var message = event.data;
 
+  
   if (message.source === 'content-script') {
     const fiberRoot = getFiberRoot();
+    const snapshoot = getSnapshootOfFiberTree(fiberRoot);
+    // 不展示alternate, 现在能获取到渲染完成之后的fiber树，current和alternate都是一样
+    snapshoot.alternateTree = null;
     window.postMessage({
-      snapshoot: getSnapshootOfFiberTree(fiberRoot),
+      snapshoot: snapshoot,
       source: 'injected-script'
     }, '*')
   }
@@ -271,6 +275,7 @@ function getSnapshootOfFiberTree(fiberRoot) {
   //  HostRootFiber: fiber树的根节点
   const currentRootFiber = fiberRoot.current;
   const alternateRootFiber = currentRootFiber.alternate;
+
 
   const currentTree = fiberToTree(currentRootFiber);
   const alternateTree = fiberToTree(alternateRootFiber);

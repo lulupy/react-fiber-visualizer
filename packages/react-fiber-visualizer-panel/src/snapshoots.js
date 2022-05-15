@@ -2,23 +2,31 @@ export default [
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": []
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
-          "lanes": 1,
+          "lanes": 16,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
+            "baseState": {
+              "element": null,
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
@@ -38,7 +46,8 @@ export default [
                   },
                   "callback": null
                 }
-              ]
+              ],
+              "interleaved": null
             }
           }
         }
@@ -46,23 +55,31 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": []
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
-          "lanes": 1,
+          "lanes": 16,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
+            "baseState": {
+              "element": null,
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
@@ -82,127 +99,44 @@ export default [
                   },
                   "callback": null
                 }
-              ]
+              ],
+              "interleaved": null
             }
           }
         }
       }
     },
-    "workInProgress": 1,
-    "note": "开始构建fiber树之前的初始状态"
+    "workInProgress": "1",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": []
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
-          "lanes": 1,
+          "lanes": 16,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "element": {
-                      "$$typeof": "Symbol(react.element)",
-                      "type": "function: App",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    }
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "element": {
-                      "$$typeof": "Symbol(react.element)",
-                      "type": "function: App",
-                      "key": null,
-                      "ref": null,
-                      "props": {},
-                      "_owner": null,
-                      "_store": {}
-                    }
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        }
-      }
-    },
-    "workInProgress": 1,
-    "note": "探索阶段"
-  },
-  {
-    "currentTree": {
-      "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
+            "baseState": {
+              "element": null,
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
             "effects": null,
             "_baseUpdateQueue": [
               {
@@ -222,7 +156,8 @@ export default [
             ],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         }
@@ -230,22 +165,22 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": []
           }
         ]
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -260,20 +195,27 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 1,
+        "3": {
+          "id": "3",
+          "tag": "IndeterminateComponent",
+          "lanes": 16,
           "childLanes": 0,
           "elementType": "App",
           "flags": [
@@ -288,29 +230,37 @@ export default [
         }
       }
     },
-    "workInProgress": 4,
-    "note": "探索阶段"
+    "workInProgress": "3",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": []
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
-          "lanes": 1,
+          "lanes": 16,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
+            "baseState": {
+              "element": null,
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
             "effects": null,
             "_baseUpdateQueue": [
               {
@@ -330,7 +280,8 @@ export default [
             ],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         }
@@ -338,185 +289,17 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": []
               },
               {
-                "id": 7,
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "App",
-          "flags": [
-            "PerformedWork",
-            "Placement",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "Header",
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "workInProgress": 6,
-    "note": "探索阶段"
-  },
-  {
-    "currentTree": {
-      "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "element": {
-                    "$$typeof": "Symbol(react.element)",
-                    "type": "function: App",
-                    "key": null,
-                    "ref": null,
-                    "props": {},
-                    "_owner": null,
-                    "_store": {}
-                  }
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
+                "id": "6",
                 "children": []
               }
             ]
@@ -525,12 +308,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -545,108 +328,67 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "App",
           "flags": [
             "PerformedWork",
             "Placement",
-            "Update",
             "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
+            "HostEffectMask",
+            "Incomplete"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "deps": []
+              }
+            ]
           }
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 16,
           "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "9": {
-          "id": 9,
+        "6": {
+          "id": "6",
           "tag": "HostComponent",
-          "lanes": 1,
+          "lanes": 16,
           "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "h2",
+          "elementType": "div",
           "flags": [],
           "effects": [],
           "nextEffects": [],
@@ -654,29 +396,37 @@ export default [
         }
       }
     },
-    "workInProgress": 9,
-    "note": "探索阶段"
+    "workInProgress": "5",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": []
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
-          "lanes": 1,
+          "lanes": 16,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
+            "baseState": {
+              "element": null,
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
             "effects": null,
             "_baseUpdateQueue": [
               {
@@ -696,7 +446,8 @@ export default [
             ],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         }
@@ -704,26 +455,22 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
+                    "id": "8",
                     "children": []
                   }
                 ]
               },
               {
-                "id": 7,
+                "id": "6",
                 "children": []
               }
             ]
@@ -732,12 +479,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -752,138 +499,116 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "App",
           "flags": [
             "PerformedWork",
             "Placement",
-            "Update",
             "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
+            "HostEffectMask",
+            "Incomplete"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "deps": []
+              }
+            ]
           }
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "9": {
-          "id": 9,
+        "6": {
+          "id": "6",
           "tag": "HostComponent",
-          "lanes": 0,
+          "lanes": 16,
           "childLanes": 0,
-          "elementType": "h1",
+          "elementType": "div",
           "flags": [],
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 1,
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
           "flags": [],
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 9,
-    "note": "回溯阶段"
+    "workInProgress": "8",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": []
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
-          "lanes": 1,
+          "lanes": 16,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
+            "baseState": {
+              "element": null,
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
             "effects": null,
             "_baseUpdateQueue": [
               {
@@ -903,7 +628,8 @@ export default [
             ],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         }
@@ -911,26 +637,27 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
+                    "id": "8",
+                    "children": [
+                      {
+                        "id": "10",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "id": 7,
+                "id": "6",
                 "children": []
               }
             ]
@@ -939,12 +666,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -959,139 +686,128 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "App",
           "flags": [
             "PerformedWork",
             "Placement",
-            "Update",
             "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
+            "HostEffectMask",
+            "Incomplete"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "deps": []
+              }
+            ]
           }
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "9": {
-          "id": 9,
+        "6": {
+          "id": "6",
           "tag": "HostComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "div",
+          "flags": [],
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h1",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 1,
+          "id": "10",
+          "tag": "IndeterminateComponent",
+          "lanes": 16,
           "childLanes": 0,
-          "elementType": "h2",
+          "elementType": "Sub",
           "flags": [],
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 10,
-    "note": "探索阶段"
+    "workInProgress": "10",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": []
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
-          "lanes": 1,
+          "lanes": 16,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
+            "baseState": {
+              "element": null,
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
             "effects": null,
             "_baseUpdateQueue": [
               {
@@ -1111,7 +827,8 @@ export default [
             ],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         }
@@ -1119,26 +836,32 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
+                    "id": "8",
+                    "children": [
+                      {
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "id": 7,
+                "id": "6",
                 "children": []
               }
             ]
@@ -1147,12 +870,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -1167,109 +890,104 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "App",
           "flags": [
             "PerformedWork",
             "Placement",
-            "Update",
             "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
+            "HostEffectMask",
+            "Incomplete"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "deps": []
+              }
+            ]
           }
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "9": {
-          "id": 9,
+        "6": {
+          "id": "6",
           "tag": "HostComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "div",
+          "flags": [],
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h1",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "10": {
-          "id": 10,
-          "tag": "HostComponent",
+          "id": "10",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
+          "elementType": "Sub",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
+          "tag": "HostComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "div",
           "flags": [],
           "effects": [],
           "nextEffects": [],
@@ -1277,29 +995,37 @@ export default [
         }
       }
     },
-    "workInProgress": 10,
-    "note": "回溯阶段"
+    "workInProgress": "12",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": []
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
-          "lanes": 1,
+          "lanes": 16,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
+            "baseState": {
+              "element": null,
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
             "effects": null,
             "_baseUpdateQueue": [
               {
@@ -1319,7 +1045,8 @@ export default [
             ],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         }
@@ -1327,26 +1054,45 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
+                    "id": "8",
+                    "children": [
+                      {
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "id": 7,
+                "id": "6",
                 "children": []
               }
             ]
@@ -1355,12 +1101,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -1375,140 +1121,175 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "App",
           "flags": [
             "PerformedWork",
             "Placement",
-            "Update",
             "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
+            "HostEffectMask",
+            "Incomplete"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "deps": []
+              }
+            ]
           }
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "9": {
-          "id": 9,
+        "6": {
+          "id": "6",
           "tag": "HostComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "div",
+          "flags": [],
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h1",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "10": {
-          "id": 10,
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
+          "elementType": "div",
           "flags": [],
-          "stateNode": "<h2>title2</h2>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "button",
+          "flags": [],
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "pre",
+          "flags": [],
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": null,
+          "flags": [],
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 6,
-    "note": "回溯阶段"
+    "workInProgress": "14",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": []
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
-          "lanes": 1,
+          "lanes": 16,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
+            "baseState": {
+              "element": null,
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
             "effects": null,
             "_baseUpdateQueue": [
               {
@@ -1528,7 +1309,8 @@ export default [
             ],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         }
@@ -1536,26 +1318,45 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
+                    "id": "8",
+                    "children": [
+                      {
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "id": 7,
+                "id": "6",
                 "children": []
               }
             ]
@@ -1564,12 +1365,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -1584,140 +1385,176 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "App",
           "flags": [
             "PerformedWork",
             "Placement",
-            "Update",
             "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
+            "HostEffectMask",
+            "Incomplete"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "deps": []
+              }
+            ]
           }
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "9": {
-          "id": 9,
+        "6": {
+          "id": "6",
           "tag": "HostComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "div",
+          "flags": [],
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h1",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "10": {
-          "id": 10,
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
+          "elementType": "div",
           "flags": [],
-          "stateNode": "<h2>title2</h2>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "pre",
+          "flags": [],
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": null,
+          "flags": [],
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 7,
-    "note": "探索阶段"
+    "workInProgress": "15",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": []
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
-          "lanes": 1,
+          "lanes": 16,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
+            "baseState": {
+              "element": null,
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
             "effects": null,
             "_baseUpdateQueue": [
               {
@@ -1737,7 +1574,8 @@ export default [
             ],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         }
@@ -1745,36 +1583,46 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
+                    "id": "8",
+                    "children": [
+                      {
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": []
-                  }
-                ]
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -1782,12 +1630,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -1802,157 +1650,139 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "App",
           "flags": [
             "PerformedWork",
             "Placement",
-            "Update",
             "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
+            "HostEffectMask",
+            "Incomplete"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "deps": []
+              }
+            ]
           }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
         },
         "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
+          "id": "6",
           "tag": "HostComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "div",
+          "flags": [],
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h1",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "10": {
-          "id": 10,
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
+          "elementType": "div",
           "flags": [],
-          "stateNode": "<h2>title2</h2>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "14": {
-          "id": 14,
+          "id": "14",
           "tag": "HostComponent",
-          "lanes": 1,
+          "lanes": 0,
           "childLanes": 0,
           "elementType": "button",
           "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "15": {
-          "id": 15,
+          "id": "15",
           "tag": "HostComponent",
-          "lanes": 1,
+          "lanes": 0,
           "childLanes": 0,
-          "elementType": "div",
+          "elementType": "pre",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": null,
           "flags": [],
           "effects": [],
           "nextEffects": [],
@@ -1960,29 +1790,37 @@ export default [
         }
       }
     },
-    "workInProgress": 14,
-    "note": "探索阶段"
+    "workInProgress": "16",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": []
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
-          "lanes": 1,
+          "lanes": 16,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
+            "baseState": {
+              "element": null,
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
             "effects": null,
             "_baseUpdateQueue": [
               {
@@ -2002,7 +1840,8 @@ export default [
             ],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         }
@@ -2010,36 +1849,46 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
+                    "id": "8",
+                    "children": [
+                      {
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": []
-                  }
-                ]
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -2047,12 +1896,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -2067,244 +1916,194 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "App",
           "flags": [
             "PerformedWork",
             "Placement",
-            "Update",
             "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
+            "HostEffectMask",
+            "Incomplete"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "deps": []
+              }
+            ]
           }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
         },
         "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
+          "id": "6",
           "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 1,
+          "lanes": 16,
           "childLanes": 0,
           "elementType": "div",
           "flags": [],
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "10": {
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": null,
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
         }
       }
     },
-    "workInProgress": 14,
-    "note": "回溯阶段"
+    "workInProgress": "6",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "element": {
-                    "$$typeof": "Symbol(react.element)",
-                    "type": "function: App",
-                    "key": null,
-                    "ref": null,
-                    "props": {},
-                    "_owner": null,
-                    "_store": {}
-                  }
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
+                    "id": "8",
+                    "children": [
+                      {
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
               {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": []
-                  }
-                ]
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -2312,12 +2111,227 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "0",
+          "flags": [
+            "Hydrating",
+            "HydratingAndUpdate",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "baseState": {
+              "element": {
+                "$$typeof": "Symbol(react.element)",
+                "type": "function: App",
+                "key": null,
+                "ref": null,
+                "props": {},
+                "_owner": null,
+                "_store": {}
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
+            "effects": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [],
+            "shared": {
+              "pending": [],
+              "interleaved": null
+            }
+          }
+        },
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "App",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask",
+            "Incomplete"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "10": {
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        }
+      }
+    },
+    "alternateTree": {
+      "tree": {
+        "id": "0",
+        "children": [
+          {
+            "id": "3",
+            "children": [
+              {
+                "id": "5",
+                "children": [
+                  {
+                    "id": "8",
+                    "children": [
+                      {
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "6",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "fibers": {
+        "0": {
+          "id": "0",
+          "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -2332,258 +2346,194 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
+          "lanes": 16,
           "childLanes": 0,
           "elementType": "App",
           "flags": [
             "PerformedWork",
-            "Placement",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
+            "HostEffectMask",
+            "Incomplete"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
           }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
         },
         "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
+          "id": "6",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h1",
+          "elementType": "div",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "flags": [],
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "10": {
-          "id": 10,
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
+          "elementType": "div",
           "flags": [],
-          "stateNode": "<h2>title2</h2>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "14": {
-          "id": 14,
+          "id": "14",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "button",
           "flags": [],
-          "stateNode": "<button>change</button>",
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "15": {
-          "id": 15,
+          "id": "15",
           "tag": "HostComponent",
-          "lanes": 1,
+          "lanes": 0,
           "childLanes": 0,
-          "elementType": "div",
+          "elementType": "pre",
           "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": null,
+          "flags": [],
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 15,
-    "note": "探索阶段"
+    "workInProgress": "0",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "element": {
-                    "$$typeof": "Symbol(react.element)",
-                    "type": "function: App",
-                    "key": null,
-                    "ref": null,
-                    "props": {},
-                    "_owner": null,
-                    "_store": {}
-                  }
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -2591,12 +2541,228 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "0",
+          "flags": [
+            "Hydrating",
+            "HydratingAndUpdate",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "baseState": {
+              "element": {
+                "$$typeof": "Symbol(react.element)",
+                "type": "function: App",
+                "key": null,
+                "ref": null,
+                "props": {},
+                "_owner": null,
+                "_store": {}
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
+            "effects": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [],
+            "shared": {
+              "pending": [],
+              "interleaved": null
+            }
+          }
+        },
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "22",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask",
+            "Incomplete"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "10": {
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        }
+      }
+    },
+    "alternateTree": {
+      "tree": {
+        "id": "0",
+        "children": [
+          {
+            "id": "22",
+            "children": [
+              {
+                "id": "5",
+                "children": [
+                  {
+                    "id": "8",
+                    "children": [
+                      {
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "6",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "fibers": {
+        "0": {
+          "id": "0",
+          "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -2611,291 +2777,191 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "App",
-          "flags": [
-            "PerformedWork",
-            "Placement",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "flags": [],
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
+          "updateQueue": null
         },
         "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+          "id": "6",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
           "flags": [],
+          "stateNode": "<div>0</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 1,
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
           "flags": [],
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 1,
+        "10": {
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
+          "elementType": "Sub",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
+        "12": {
+          "id": "12",
           "tag": "HostComponent",
-          "lanes": 1,
+          "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": "div",
           "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": null,
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "3",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
         }
       }
     },
-    "workInProgress": 18,
-    "note": "探索阶段"
+    "workInProgress": "22",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "element": {
-                    "$$typeof": "Symbol(react.element)",
-                    "type": "function: App",
-                    "key": null,
-                    "ref": null,
-                    "props": {},
-                    "_owner": null,
-                    "_store": {}
-                  }
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -2903,12 +2969,230 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "0",
+          "flags": [
+            "Hydrating",
+            "HydratingAndUpdate",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "baseState": {
+              "element": {
+                "$$typeof": "Symbol(react.element)",
+                "type": "function: App",
+                "key": null,
+                "ref": null,
+                "props": {},
+                "_owner": null,
+                "_store": {}
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
+            "effects": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [],
+            "shared": {
+              "pending": [],
+              "interleaved": null
+            }
+          }
+        },
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "22",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask",
+            "Incomplete"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "25",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "10": {
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        }
+      }
+    },
+    "alternateTree": {
+      "tree": {
+        "id": "0",
+        "children": [
+          {
+            "id": "22",
+            "children": [
+              {
+                "id": "24",
+                "children": [
+                  {
+                    "id": "8",
+                    "children": [
+                      {
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "25",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "fibers": {
+        "0": {
+          "id": "0",
+          "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -2923,291 +3207,196 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "8": {
+          "id": "8",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "App",
-          "flags": [
-            "PerformedWork",
-            "Placement",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "10": {
-          "id": 10,
-          "tag": "HostComponent",
+          "id": "10",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
+          "elementType": "Sub",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "12": {
+          "id": "12",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
           "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "14": {
+          "id": "14",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": "button",
           "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "15": {
+          "id": "15",
           "tag": "HostComponent",
-          "lanes": 1,
+          "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": "pre",
           "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 1,
+        "16": {
+          "id": "16",
+          "tag": "HostText",
+          "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
           "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "3",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [],
+          "stateNode": "<div>0</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 18,
-    "note": "回溯阶段"
+    "workInProgress": "24",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "element": {
-                    "$$typeof": "Symbol(react.element)",
-                    "type": "function: App",
-                    "key": null,
-                    "ref": null,
-                    "props": {},
-                    "_owner": null,
-                    "_store": {}
-                  }
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -3215,12 +3404,231 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "0",
+          "flags": [
+            "Hydrating",
+            "HydratingAndUpdate",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "baseState": {
+              "element": {
+                "$$typeof": "Symbol(react.element)",
+                "type": "function: App",
+                "key": null,
+                "ref": null,
+                "props": {},
+                "_owner": null,
+                "_store": {}
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
+            "effects": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [],
+            "shared": {
+              "pending": [],
+              "interleaved": null
+            }
+          }
+        },
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "22",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask",
+            "Incomplete"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "25",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "27",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "10": {
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        }
+      }
+    },
+    "alternateTree": {
+      "tree": {
+        "id": "0",
+        "children": [
+          {
+            "id": "22",
+            "children": [
+              {
+                "id": "24",
+                "children": [
+                  {
+                    "id": "27",
+                    "children": [
+                      {
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "25",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "fibers": {
+        "0": {
+          "id": "0",
+          "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -3235,292 +3643,197 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "App",
-          "flags": [
-            "PerformedWork",
-            "Placement",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
         },
         "10": {
-          "id": 10,
-          "tag": "HostComponent",
+          "id": "10",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
+          "elementType": "Sub",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "12": {
+          "id": "12",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
           "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "14": {
+          "id": "14",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": "button",
           "flags": [],
-          "stateNode": "<p>A</p>",
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "15": {
+          "id": "15",
           "tag": "HostComponent",
-          "lanes": 1,
+          "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": "pre",
           "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 1,
+        "16": {
+          "id": "16",
+          "tag": "HostText",
+          "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
           "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "3",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "27": {
+          "id": "27",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 19,
-    "note": "探索阶段"
+    "workInProgress": "27",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "element": {
-                    "$$typeof": "Symbol(react.element)",
-                    "type": "function: App",
-                    "key": null,
-                    "ref": null,
-                    "props": {},
-                    "_owner": null,
-                    "_store": {}
-                  }
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -3528,12 +3841,232 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "0",
+          "flags": [
+            "Hydrating",
+            "HydratingAndUpdate",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "baseState": {
+              "element": {
+                "$$typeof": "Symbol(react.element)",
+                "type": "function: App",
+                "key": null,
+                "ref": null,
+                "props": {},
+                "_owner": null,
+                "_store": {}
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
+            "effects": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [],
+            "shared": {
+              "pending": [],
+              "interleaved": null
+            }
+          }
+        },
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "22",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask",
+            "Incomplete"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "25",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "27",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "10": {
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "29",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        }
+      }
+    },
+    "alternateTree": {
+      "tree": {
+        "id": "0",
+        "children": [
+          {
+            "id": "22",
+            "children": [
+              {
+                "id": "24",
+                "children": [
+                  {
+                    "id": "27",
+                    "children": [
+                      {
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "25",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "fibers": {
+        "0": {
+          "id": "0",
+          "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -3548,292 +4081,195 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "App",
-          "flags": [
-            "PerformedWork",
-            "Placement",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "12": {
+          "id": "12",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
           "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "14": {
+          "id": "14",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": "button",
           "flags": [],
-          "stateNode": "<p>A</p>",
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "15": {
+          "id": "15",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": "pre",
           "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 1,
+        "16": {
+          "id": "16",
+          "tag": "HostText",
+          "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
           "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "3",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "27": {
+          "id": "27",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
+          "flags": [],
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 19,
-    "note": "回溯阶段"
+    "workInProgress": "29",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "element": {
-                    "$$typeof": "Symbol(react.element)",
-                    "type": "function: App",
-                    "key": null,
-                    "ref": null,
-                    "props": {},
-                    "_owner": null,
-                    "_store": {}
-                  }
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -3841,12 +4277,233 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "0",
+          "flags": [
+            "Hydrating",
+            "HydratingAndUpdate",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "baseState": {
+              "element": {
+                "$$typeof": "Symbol(react.element)",
+                "type": "function: App",
+                "key": null,
+                "ref": null,
+                "props": {},
+                "_owner": null,
+                "_store": {}
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
+            "effects": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [],
+            "shared": {
+              "pending": [],
+              "interleaved": null
+            }
+          }
+        },
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "22",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask",
+            "Incomplete"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "25",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "27",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "10": {
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "29",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "31",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        }
+      }
+    },
+    "alternateTree": {
+      "tree": {
+        "id": "0",
+        "children": [
+          {
+            "id": "22",
+            "children": [
+              {
+                "id": "24",
+                "children": [
+                  {
+                    "id": "27",
+                    "children": [
+                      {
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "25",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "fibers": {
+        "0": {
+          "id": "0",
+          "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -3861,293 +4518,199 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "App",
-          "flags": [
-            "PerformedWork",
-            "Placement",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
         },
         "14": {
-          "id": 14,
+          "id": "14",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "button",
           "flags": [],
-          "stateNode": "<button>change</button>",
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "15": {
-          "id": 15,
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": null,
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "3",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
+          "alternate": "6",
           "flags": [],
+          "stateNode": "<div>0</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "27": {
+          "id": "27",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": "div",
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 20,
-    "note": "探索阶段"
+    "workInProgress": "31",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "element": {
-                    "$$typeof": "Symbol(react.element)",
-                    "type": "function: App",
-                    "key": null,
-                    "ref": null,
-                    "props": {},
-                    "_owner": null,
-                    "_store": {}
-                  }
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -4155,12 +4718,236 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "0",
+          "flags": [
+            "Hydrating",
+            "HydratingAndUpdate",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "baseState": {
+              "element": {
+                "$$typeof": "Symbol(react.element)",
+                "type": "function: App",
+                "key": null,
+                "ref": null,
+                "props": {},
+                "_owner": null,
+                "_store": {}
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
+            "effects": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [],
+            "shared": {
+              "pending": [],
+              "interleaved": null
+            }
+          }
+        },
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "22",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask",
+            "Incomplete"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "25",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "27",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "10": {
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "29",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "31",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "alternate": "33",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "alternate": "34",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "35",
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        }
+      }
+    },
+    "alternateTree": {
+      "tree": {
+        "id": "0",
+        "children": [
+          {
+            "id": "22",
+            "children": [
+              {
+                "id": "24",
+                "children": [
+                  {
+                    "id": "27",
+                    "children": [
+                      {
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "25",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "fibers": {
+        "0": {
+          "id": "0",
+          "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -4175,293 +4962,202 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "App",
-          "flags": [
-            "PerformedWork",
-            "Placement",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
+          "alternate": "3",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
           }
         },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
+          "alternate": "5",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "25": {
+          "id": "25",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
+          "alternate": "6",
           "flags": [],
+          "stateNode": "<div>0</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
+        "27": {
+          "id": "27",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "alternate": "8",
           "flags": [],
-          "stateNode": "<p>A</p>",
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "Sub",
+          "alternate": "10",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": "div",
+          "alternate": "12",
           "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "33": {
+          "id": "33",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "34": {
+          "id": "34",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "35": {
+          "id": "35",
+          "tag": "HostText",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": null,
+          "alternate": "16",
+          "flags": [],
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 20,
-    "note": "回溯阶段"
+    "workInProgress": "33",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "element": {
-                    "$$typeof": "Symbol(react.element)",
-                    "type": "function: App",
-                    "key": null,
-                    "ref": null,
-                    "props": {},
-                    "_owner": null,
-                    "_store": {}
-                  }
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -4469,12 +5165,236 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "0",
+          "flags": [
+            "Hydrating",
+            "HydratingAndUpdate",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "baseState": {
+              "element": {
+                "$$typeof": "Symbol(react.element)",
+                "type": "function: App",
+                "key": null,
+                "ref": null,
+                "props": {},
+                "_owner": null,
+                "_store": {}
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
+            "effects": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [],
+            "shared": {
+              "pending": [],
+              "interleaved": null
+            }
+          }
+        },
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "22",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask",
+            "Incomplete"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "25",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "27",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "10": {
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "29",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "31",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "alternate": "33",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "alternate": "34",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "35",
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        }
+      }
+    },
+    "alternateTree": {
+      "tree": {
+        "id": "0",
+        "children": [
+          {
+            "id": "22",
+            "children": [
+              {
+                "id": "24",
+                "children": [
+                  {
+                    "id": "27",
+                    "children": [
+                      {
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "25",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "fibers": {
+        "0": {
+          "id": "0",
+          "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -4489,294 +5409,211 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "App",
+          "alternate": "3",
           "flags": [
             "PerformedWork",
-            "Placement",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "27": {
+          "id": "27",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "31": {
+          "id": "31",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "12",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "33": {
+          "id": "33",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": []
           }
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h1",
+          "elementType": "pre",
+          "alternate": "15",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "flags": [],
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 15,
-    "note": "回溯阶段"
+    "workInProgress": "34",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "element": {
-                    "$$typeof": "Symbol(react.element)",
-                    "type": "function: App",
-                    "key": null,
-                    "ref": null,
-                    "props": {},
-                    "_owner": null,
-                    "_store": {}
-                  }
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -4784,12 +5621,236 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "0",
+          "flags": [
+            "Hydrating",
+            "HydratingAndUpdate",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "baseState": {
+              "element": {
+                "$$typeof": "Symbol(react.element)",
+                "type": "function: App",
+                "key": null,
+                "ref": null,
+                "props": {},
+                "_owner": null,
+                "_store": {}
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
+            "effects": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [],
+            "shared": {
+              "pending": [],
+              "interleaved": null
+            }
+          }
+        },
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "22",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask",
+            "Incomplete"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "25",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "27",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "10": {
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "29",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "31",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "alternate": "33",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "alternate": "34",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "35",
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        }
+      }
+    },
+    "alternateTree": {
+      "tree": {
+        "id": "0",
+        "children": [
+          {
+            "id": "22",
+            "children": [
+              {
+                "id": "24",
+                "children": [
+                  {
+                    "id": "27",
+                    "children": [
+                      {
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "25",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "fibers": {
+        "0": {
+          "id": "0",
+          "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -4804,295 +5865,220 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "App",
+          "alternate": "3",
           "flags": [
             "PerformedWork",
-            "Placement",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "27": {
+          "id": "27",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "31": {
+          "id": "31",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "12",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "33": {
+          "id": "33",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": []
           }
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "34": {
+          "id": "34",
+          "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
+          "elementType": "pre",
+          "alternate": "15",
           "flags": [
-            "PerformedWork",
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": []
           }
         },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 7,
-    "note": "回溯阶段"
+    "workInProgress": "35",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "element": {
-                    "$$typeof": "Symbol(react.element)",
-                    "type": "function: App",
-                    "key": null,
-                    "ref": null,
-                    "props": {},
-                    "_owner": null,
-                    "_store": {}
-                  }
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -5100,12 +6086,236 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "0",
+          "flags": [
+            "Hydrating",
+            "HydratingAndUpdate",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "baseState": {
+              "element": {
+                "$$typeof": "Symbol(react.element)",
+                "type": "function: App",
+                "key": null,
+                "ref": null,
+                "props": {},
+                "_owner": null,
+                "_store": {}
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
+            "effects": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [],
+            "shared": {
+              "pending": [],
+              "interleaved": null
+            }
+          }
+        },
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "22",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask",
+            "Incomplete"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "25",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "27",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "10": {
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "29",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "31",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "14": {
+          "id": "14",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "alternate": "33",
+          "flags": [],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "15": {
+          "id": "15",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "alternate": "34",
+          "flags": [],
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "35",
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        }
+      }
+    },
+    "alternateTree": {
+      "tree": {
+        "id": "0",
+        "children": [
+          {
+            "id": "22",
+            "children": [
+              {
+                "id": "24",
+                "children": [
+                  {
+                    "id": "27",
+                    "children": [
+                      {
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "25",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "fibers": {
+        "0": {
+          "id": "0",
+          "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -5120,313 +6330,236 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "App",
+          "alternate": "3",
           "flags": [
             "PerformedWork",
-            "Placement",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [],
+          "stateNode": "<div>0</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "27": {
+          "id": "27",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "31": {
+          "id": "31",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "12",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "33": {
+          "id": "33",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": []
           }
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "34": {
+          "id": "34",
+          "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
+          "elementType": "pre",
+          "alternate": "15",
           "flags": [
-            "PerformedWork",
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<pre>{\n  \"count\": 0,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": []
           }
         },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 4,
-    "note": "回溯阶段"
+    "workInProgress": "25",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
-        "children": []
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "element": {
-                    "$$typeof": "Symbol(react.element)",
-                    "type": "function: App",
-                    "key": null,
-                    "ref": null,
-                    "props": {},
-                    "_owner": null,
-                    "_store": {}
-                  }
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
+        "id": "0",
         "children": [
           {
-            "id": 4,
+            "id": "22",
             "children": [
               {
-                "id": 6,
+                "id": "24",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "27",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "25",
+                "children": []
               }
             ]
           }
         ]
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 0,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "1",
           "flags": [],
           "stateNode": null,
-          "effects": [
-            4
-          ],
+          "effects": [],
           "nextEffects": [],
           "updateQueue": {
             "baseState": {
@@ -5438,273 +6571,473 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 16,
           "childLanes": 0,
           "elementType": "App",
+          "alternate": "3",
           "flags": [
             "PerformedWork",
-            "Placement",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<div>1</div>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
+          "updateQueue": null
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "27": {
+          "id": "27",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "33": {
+          "id": "33",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 1,
-    "note": "回溯阶段"
+    "alternateTree": {
+      "tree": {
+        "id": "1",
+        "children": [
+          {
+            "id": "22",
+            "children": [
+              {
+                "id": "24",
+                "children": [
+                  {
+                    "id": "27",
+                    "children": [
+                      {
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "25",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "fibers": {
+        "1": {
+          "id": "1",
+          "tag": "HostRoot",
+          "lanes": 0,
+          "childLanes": 16,
+          "elementType": null,
+          "alternate": "0",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "baseState": {
+              "element": {
+                "$$typeof": "Symbol(react.element)",
+                "type": "function: App",
+                "key": null,
+                "ref": null,
+                "props": {},
+                "_owner": null,
+                "_store": {}
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
+            },
+            "effects": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [],
+            "shared": {
+              "pending": [],
+              "interleaved": null
+            }
+          }
+        },
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
+          "elementType": "App",
+          "alternate": "3",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<div>1</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "27": {
+          "id": "27",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "31": {
+          "id": "31",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "12",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "33": {
+          "id": "33",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "34": {
+          "id": "34",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "35": {
+          "id": "35",
+          "tag": "HostText",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": null,
+          "alternate": "16",
+          "flags": [],
+          "stateNode": "Initial state",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        }
+      }
+    },
+    "workInProgress": "1",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": [
           {
-            "id": 4,
+            "id": "22",
             "children": [
               {
-                "id": 6,
+                "id": "24",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "27",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "25",
+                "children": []
               }
             ]
           }
         ]
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
+          "alternate": "1",
+          "flags": [],
           "stateNode": null,
-          "effects": [
-            4
-          ],
+          "effects": [],
           "nextEffects": [],
           "updateQueue": {
             "baseState": {
@@ -5716,202 +7049,168 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
           "elementType": "App",
+          "alternate": "3",
           "flags": [
             "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<div>1</div>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
+          "updateQueue": null
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "27": {
+          "id": "27",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "list": []
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "33": {
+          "id": "33",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
@@ -5920,49 +7219,46 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "24",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "27",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "25",
+                "children": []
               }
             ]
           }
@@ -5970,12 +7266,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -5990,279 +7286,233 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
           "elementType": "App",
+          "alternate": "22",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
           "flags": [
-            "PerformedWork",
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<div>1</div>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
+          "updateQueue": null
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "27": {
+          "id": "27",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "list": []
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "33": {
+          "id": "33",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 1,
-    "note": "开始构建fiber树之前的初始状态"
+    "workInProgress": "3",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": [
           {
-            "id": 4,
+            "id": "22",
             "children": [
               {
-                "id": 6,
+                "id": "24",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "27",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "25",
+                "children": []
               }
             ]
           }
         ]
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
+          "alternate": "1",
+          "flags": [],
           "stateNode": null,
-          "effects": [
-            4
-          ],
+          "effects": [],
           "nextEffects": [],
           "updateQueue": {
             "baseState": {
@@ -6274,202 +7524,168 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
           "elementType": "App",
+          "alternate": "3",
           "flags": [
             "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<div>1</div>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
+          "updateQueue": null
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "27": {
+          "id": "27",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "list": []
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "33": {
+          "id": "33",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
@@ -6478,49 +7694,46 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "27",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -6528,12 +7741,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -6548,279 +7761,230 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 0,
           "elementType": "App",
+          "alternate": "22",
           "flags": [
             "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "25",
+          "flags": [],
+          "stateNode": "<div>1</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "27": {
+          "id": "27",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "31": {
+          "id": "31",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "12",
+          "flags": [],
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "33": {
+          "id": "33",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
+          "updateQueue": null
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "34": {
+          "id": "34",
+          "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
+          "elementType": "pre",
+          "alternate": "15",
           "flags": [
-            "PerformedWork",
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "list": []
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 1,
-    "note": "探索阶段"
+    "workInProgress": "5",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": [
           {
-            "id": 4,
+            "id": "22",
             "children": [
               {
-                "id": 6,
+                "id": "24",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "27",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "25",
+                "children": []
               }
             ]
           }
         ]
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
+          "alternate": "1",
+          "flags": [],
           "stateNode": null,
-          "effects": [
-            4
-          ],
+          "effects": [],
           "nextEffects": [],
           "updateQueue": {
             "baseState": {
@@ -6832,203 +7996,168 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
+          "alternate": "3",
           "flags": [
             "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<div>1</div>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
+          "updateQueue": null
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "27": {
+          "id": "27",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "list": []
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "33": {
+          "id": "33",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
@@ -7037,49 +8166,46 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -7087,12 +8213,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -7107,273 +8233,230 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "alternate": "22",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
           }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
         },
         "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "list": []
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+          "id": "6",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
+          "alternate": "25",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div>1</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
+        "8": {
+          "id": "8",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "alternate": "27",
           "flags": [],
-          "stateNode": "<p>A</p>",
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "Sub",
+          "alternate": "10",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": "div",
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "33": {
+          "id": "33",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "34": {
+          "id": "34",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "35": {
+          "id": "35",
+          "tag": "HostText",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": null,
+          "alternate": "16",
+          "flags": [],
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 4,
-    "note": "探索阶段"
+    "workInProgress": "8",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": [
           {
-            "id": 4,
+            "id": "22",
             "children": [
               {
-                "id": 6,
+                "id": "24",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "27",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "25",
+                "children": []
               }
             ]
           }
         ]
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
+          "alternate": "1",
+          "flags": [],
           "stateNode": null,
-          "effects": [
-            4
-          ],
+          "effects": [],
           "nextEffects": [],
           "updateQueue": {
             "baseState": {
@@ -7385,205 +8468,168 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
+          "alternate": "3",
           "flags": [
             "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<div>1</div>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
+          "updateQueue": null
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "27": {
+          "id": "27",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "list": []
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "33": {
+          "id": "33",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
@@ -7592,49 +8638,46 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -7642,12 +8685,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -7662,269 +8705,227 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "alternate": "22",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
           }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
         },
         "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "list": []
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        },
-        "9": {
-          "id": 9,
+          "id": "6",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h1",
+          "elementType": "div",
+          "alternate": "25",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": "<div>1</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "27",
+          "flags": [],
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "10": {
-          "id": 10,
-          "tag": "HostComponent",
+          "id": "10",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
+          "elementType": "Sub",
+          "alternate": "29",
           "flags": [],
-          "stateNode": "<h2>title2</h2>",
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "33": {
+          "id": "33",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 6,
-    "note": "探索阶段"
+    "workInProgress": "10",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": [
           {
-            "id": 4,
+            "id": "22",
             "children": [
               {
-                "id": 6,
+                "id": "24",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "27",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "25",
+                "children": []
               }
             ]
           }
         ]
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
+          "alternate": "1",
+          "flags": [],
           "stateNode": null,
-          "effects": [
-            4
-          ],
+          "effects": [],
           "nextEffects": [],
           "updateQueue": {
             "baseState": {
@@ -7936,205 +8937,168 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
+          "alternate": "3",
           "flags": [
             "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<div>1</div>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
+          "updateQueue": null
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "27": {
+          "id": "27",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "list": []
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "33": {
+          "id": "33",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
@@ -8143,49 +9107,46 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -8193,12 +9154,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -8213,269 +9174,230 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "alternate": "22",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
           }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
         },
         "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "list": []
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        },
-        "9": {
-          "id": 9,
+          "id": "6",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h1",
+          "elementType": "div",
+          "alternate": "25",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": "<div>1</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "27",
+          "flags": [],
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "10": {
-          "id": 10,
-          "tag": "HostComponent",
+          "id": "10",
+          "tag": "FunctionComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
+          "elementType": "Sub",
+          "alternate": "29",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "12": {
+          "id": "12",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
+          "alternate": "31",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "33": {
+          "id": "33",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 6,
-    "note": "回溯阶段"
+    "workInProgress": "12",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": [
           {
-            "id": 4,
+            "id": "22",
             "children": [
               {
-                "id": 6,
+                "id": "24",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "27",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "25",
+                "children": []
               }
             ]
           }
         ]
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
+          "alternate": "1",
+          "flags": [],
           "stateNode": null,
-          "effects": [
-            4
-          ],
+          "effects": [],
           "nextEffects": [],
           "updateQueue": {
             "baseState": {
@@ -8487,205 +9409,168 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
+          "alternate": "3",
           "flags": [
             "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<div>1</div>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
+          "updateQueue": null
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "27": {
+          "id": "27",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "list": []
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "33": {
+          "id": "33",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
@@ -8694,49 +9579,46 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -8744,12 +9626,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -8764,269 +9646,218 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "alternate": "22",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
           }
+        },
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
         },
         "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "A",
-                "B",
-                "C"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": [
-                {
-                  "payload": {
-                    "list": []
-                  },
-                  "callback": null
-                }
-              ]
-            }
-          }
-        },
-        "9": {
-          "id": 9,
+          "id": "6",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h1",
+          "elementType": "div",
+          "alternate": "25",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": "<div>1</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "27",
+          "flags": [],
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "10": {
-          "id": 10,
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "29",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
+          "elementType": "div",
+          "alternate": "31",
           "flags": [],
-          "stateNode": "<h2>title2</h2>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "14": {
-          "id": 14,
+          "id": "14",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "button",
+          "alternate": "33",
           "flags": [],
-          "stateNode": "<button>change</button>",
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "15": {
-          "id": 15,
+          "id": "15",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "div",
+          "elementType": "pre",
+          "alternate": "34",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "35",
           "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 7,
-    "note": "探索阶段"
+    "workInProgress": "14",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": [
           {
-            "id": 4,
+            "id": "22",
             "children": [
               {
-                "id": 6,
+                "id": "24",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "27",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "25",
+                "children": []
               }
             ]
           }
         ]
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
+          "alternate": "1",
+          "flags": [],
           "stateNode": null,
-          "effects": [
-            4
-          ],
+          "effects": [],
           "nextEffects": [],
           "updateQueue": {
             "baseState": {
@@ -9038,207 +9869,168 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
+          "alternate": "3",
           "flags": [
             "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<div>1</div>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
+          "updateQueue": null
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "27": {
+          "id": "27",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "list": []
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
-          "alternate": 15,
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "33": {
+          "id": "33",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
@@ -9247,49 +10039,46 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -9297,12 +10086,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -9317,267 +10106,227 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
+          "alternate": "22",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
           }
         },
-        "9": {
-          "id": 9,
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h1",
+          "elementType": "div",
+          "alternate": "25",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": "<div>1</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "27",
+          "flags": [],
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "10": {
-          "id": 10,
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "29",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
+          "elementType": "div",
+          "alternate": "31",
           "flags": [],
-          "stateNode": "<h2>title2</h2>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "14": {
-          "id": 14,
+          "id": "14",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
+          "alternate": "33",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": null
+          "updateQueue": {
+            "_baseUpdateQueue": [],
+            "_lastEffect": []
+          }
         },
         "15": {
-          "id": 15,
+          "id": "15",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
+          "elementType": "pre",
+          "alternate": "34",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "35",
           "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 14,
-    "note": "探索阶段"
+    "workInProgress": "15",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": [
           {
-            "id": 4,
+            "id": "22",
             "children": [
               {
-                "id": 6,
+                "id": "24",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "27",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "25",
+                "children": []
               }
             ]
           }
         ]
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
+          "alternate": "1",
+          "flags": [],
           "stateNode": null,
-          "effects": [
-            4
-          ],
+          "effects": [],
           "nextEffects": [],
           "updateQueue": {
             "baseState": {
@@ -9589,207 +10338,168 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
+          "alternate": "3",
           "flags": [
             "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<div>1</div>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
+          "updateQueue": null
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "27": {
+          "id": "27",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "list": []
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
-          "alternate": 15,
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "33": {
+          "id": "33",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
@@ -9798,49 +10508,46 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -9848,12 +10555,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -9868,267 +10575,236 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
+          "alternate": "22",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
           }
         },
-        "9": {
-          "id": 9,
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h1",
+          "elementType": "div",
+          "alternate": "25",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": "<div>1</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "27",
+          "flags": [],
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "10": {
-          "id": 10,
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "29",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
+          "elementType": "div",
+          "alternate": "31",
           "flags": [],
-          "stateNode": "<h2>title2</h2>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "14": {
-          "id": 14,
+          "id": "14",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
+          "alternate": "33",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": null
+          "updateQueue": {
+            "_baseUpdateQueue": [],
+            "_lastEffect": []
+          }
         },
         "15": {
-          "id": 15,
+          "id": "15",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "elementType": "pre",
+          "alternate": "34",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": null
+          "updateQueue": {
+            "_baseUpdateQueue": [],
+            "_lastEffect": []
+          }
         },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "35",
           "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 14,
-    "note": "回溯阶段"
+    "workInProgress": "16",
+    "note": "beginWork"
   },
   {
     "currentTree": {
       "tree": {
-        "id": 1,
+        "id": "0",
         "children": [
           {
-            "id": 4,
+            "id": "22",
             "children": [
               {
-                "id": 6,
+                "id": "24",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "27",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "29",
+                        "children": [
+                          {
+                            "id": "31",
+                            "children": [
+                              {
+                                "id": "33",
+                                "children": []
+                              },
+                              {
+                                "id": "34",
+                                "children": []
+                              },
+                              {
+                                "id": "35",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "25",
+                "children": []
               }
             ]
           }
         ]
       },
       "fibers": {
-        "1": {
-          "id": 1,
+        "0": {
+          "id": "0",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
+          "alternate": "1",
+          "flags": [],
           "stateNode": null,
-          "effects": [
-            4
-          ],
+          "effects": [],
           "nextEffects": [],
           "updateQueue": {
             "baseState": {
@@ -10140,207 +10816,168 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
+        "22": {
+          "id": "22",
+          "tag": "FunctionComponent",
+          "lanes": 16,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
+          "alternate": "3",
           "flags": [
             "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": {
+            "stores": null,
+            "_baseUpdateQueue": [],
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
+          }
+        },
+        "24": {
+          "id": "24",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "5",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "25": {
+          "id": "25",
+          "tag": "HostComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "div",
+          "alternate": "6",
+          "flags": [
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<div>1</div>",
           "effects": [],
           "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
+          "updateQueue": null
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "27": {
+          "id": "27",
+          "tag": "Block",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
+          "alternate": "8",
+          "flags": [],
+          "stateNode": {},
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "29": {
+          "id": "29",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "10",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "list": []
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
+        "31": {
+          "id": "31",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "div",
-          "alternate": 15,
+          "alternate": "12",
           "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "18": {
-          "id": 18,
+        "33": {
+          "id": "33",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
+          "elementType": "button",
+          "alternate": "14",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "19": {
-          "id": 19,
+        "34": {
+          "id": "34",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
+          "elementType": "pre",
+          "alternate": "15",
+          "flags": [
+            "Update",
+            "PlacementAndUpdate",
+            "HydratingAndUpdate",
+            "LifecycleEffectMask",
+            "HostEffectMask"
+          ],
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
+        "35": {
+          "id": "35",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "p",
+          "elementType": null,
+          "alternate": "16",
           "flags": [],
-          "stateNode": "<p>C</p>",
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
@@ -10349,49 +10986,46 @@ export default [
     },
     "alternateTree": {
       "tree": {
-        "id": 1,
+        "id": "1",
         "children": [
           {
-            "id": 4,
+            "id": "3",
             "children": [
               {
-                "id": 6,
+                "id": "5",
                 "children": [
                   {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
+                    "id": "8",
                     "children": [
                       {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
+                        "id": "10",
+                        "children": [
+                          {
+                            "id": "12",
+                            "children": [
+                              {
+                                "id": "14",
+                                "children": []
+                              },
+                              {
+                                "id": "15",
+                                "children": []
+                              },
+                              {
+                                "id": "16",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "id": "6",
+                "children": []
               }
             ]
           }
@@ -10399,12 +11033,12 @@ export default [
       },
       "fibers": {
         "1": {
-          "id": 1,
+          "id": "1",
           "tag": "HostRoot",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 16,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "0",
           "flags": [],
           "stateNode": null,
           "effects": [],
@@ -10419,5929 +11053,175 @@ export default [
                 "props": {},
                 "_owner": null,
                 "_store": {}
-              }
+              },
+              "cache": {
+                "controller": {},
+                "data": {}
+              },
+              "transitions": null,
+              "pendingSuspenseBoundaries": null
             },
             "effects": null,
             "_baseUpdateQueue": [],
             "_lastEffect": [],
             "shared": {
-              "pending": []
+              "pending": [],
+              "interleaved": null
             }
           }
         },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
+        "3": {
+          "id": "3",
+          "tag": "FunctionComponent",
           "lanes": 0,
-          "childLanes": 1,
+          "childLanes": 0,
           "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
+          "alternate": "22",
           "flags": [
             "PerformedWork",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
+          "stateNode": null,
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
+            "stores": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": [
+              {
+                "create": "function: ",
+                "destroy": "function: ",
+                "deps": []
+              }
+            ]
           }
         },
-        "9": {
-          "id": 9,
+        "5": {
+          "id": "5",
+          "tag": "SuspenseComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "24",
+          "flags": [],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "6": {
+          "id": "6",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h1",
+          "elementType": "div",
+          "alternate": "25",
           "flags": [],
-          "stateNode": "<h1>title</h1>",
+          "stateNode": "<div>1</div>",
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "8": {
+          "id": "8",
+          "tag": "Block",
+          "lanes": 0,
+          "childLanes": 0,
+          "alternate": "27",
+          "flags": [],
+          "stateNode": {},
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "10": {
-          "id": 10,
+          "id": "10",
+          "tag": "FunctionComponent",
+          "lanes": 0,
+          "childLanes": 0,
+          "elementType": "Sub",
+          "alternate": "29",
+          "flags": [
+            "PerformedWork",
+            "HostEffectMask"
+          ],
+          "stateNode": null,
+          "effects": [],
+          "nextEffects": [],
+          "updateQueue": null
+        },
+        "12": {
+          "id": "12",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "h2",
+          "elementType": "div",
+          "alternate": "31",
           "flags": [],
-          "stateNode": "<h2>title2</h2>",
+          "stateNode": "<div><button>CLICK ME</button><pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>Initial state</div>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         },
         "14": {
-          "id": 14,
+          "id": "14",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
           "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "workInProgress": 15,
-    "note": "探索阶段"
-  },
-  {
-    "currentTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
+          "alternate": "33",
           "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": null,
-          "effects": [
-            4
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [
-            "PerformedWork",
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<button>CLICK ME</button>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": []
           }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "list": []
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
         },
         "15": {
-          "id": 15,
+          "id": "15",
           "tag": "HostComponent",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
+          "elementType": "pre",
+          "alternate": "34",
           "flags": [
-            "Deletion",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 20,
-                        "children": []
-                      },
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 37,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [
-            19
-          ],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "37": {
-          "id": 37,
-          "tag": "HostComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "workInProgress": 20,
-    "note": "探索阶段"
-  },
-  {
-    "currentTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": null,
-          "effects": [
-            4
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [
-            "PerformedWork",
             "Update",
             "PlacementAndUpdate",
             "HydratingAndUpdate",
             "LifecycleEffectMask",
             "HostEffectMask"
           ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
+          "stateNode": "<pre>{\n  \"count\": 1,\n  \"isPending\": false\n}</pre>",
           "effects": [],
           "nextEffects": [],
           "updateQueue": {
-            "baseState": null,
-            "effects": null,
             "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
+            "_lastEffect": []
           }
         },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
+        "16": {
+          "id": "16",
+          "tag": "HostText",
           "lanes": 0,
           "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "list": []
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Deletion",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 20,
-                        "children": []
-                      },
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 37,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
           "elementType": null,
-          "alternate": 1,
+          "alternate": "35",
           "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [
-            19
-          ],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "37": {
-          "id": 37,
-          "tag": "HostComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
+          "stateNode": "Initial state",
           "effects": [],
           "nextEffects": [],
           "updateQueue": null
         }
       }
     },
-    "workInProgress": 20,
-    "note": "回溯阶段"
-  },
-  {
-    "currentTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": null,
-          "effects": [
-            4
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [
-            "PerformedWork",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "list": []
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Deletion",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 20,
-                        "children": []
-                      },
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 37,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [
-            19
-          ],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "37": {
-          "id": 37,
-          "tag": "HostComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "workInProgress": 18,
-    "note": "探索阶段"
-  },
-  {
-    "currentTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": null,
-          "effects": [
-            4
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [
-            "PerformedWork",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "list": []
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Deletion",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 20,
-                        "children": []
-                      },
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 37,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [
-            19
-          ],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "37": {
-          "id": 37,
-          "tag": "HostComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "workInProgress": 18,
-    "note": "回溯阶段"
-  },
-  {
-    "currentTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": null,
-          "effects": [
-            4
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [
-            "PerformedWork",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "list": []
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Deletion",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [
-            18
-          ],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 20,
-                        "children": []
-                      },
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 37,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [
-            19,
-            18
-          ],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "37": {
-          "id": 37,
-          "tag": "HostComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "workInProgress": 37,
-    "note": "探索阶段"
-  },
-  {
-    "currentTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": null,
-          "effects": [
-            4
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [
-            "PerformedWork",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "list": []
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Deletion",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [
-            18
-          ],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 20,
-                        "children": []
-                      },
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 37,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [
-            19,
-            18
-          ],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "37": {
-          "id": 37,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "workInProgress": 37,
-    "note": "回溯阶段"
-  },
-  {
-    "currentTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": null,
-          "effects": [
-            4
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [
-            "PerformedWork",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "list": []
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Deletion",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [
-            18,
-            37
-          ],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 20,
-                        "children": []
-                      },
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 37,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [
-            19,
-            18,
-            37
-          ],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [
-            37
-          ],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "37": {
-          "id": 37,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>X</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "workInProgress": 15,
-    "note": "回溯阶段"
-  },
-  {
-    "currentTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": null,
-          "effects": [
-            4
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [
-            "PerformedWork",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "list": []
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Deletion",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [
-            18,
-            37
-          ],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 20,
-                        "children": []
-                      },
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 37,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [
-            19,
-            18,
-            37
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [
-            19,
-            18,
-            37
-          ],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [
-            37
-          ],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "37": {
-          "id": 37,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>X</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "workInProgress": 7,
-    "note": "回溯阶段"
-  },
-  {
-    "currentTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": null,
-          "effects": [
-            4
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [
-            "PerformedWork",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "list": []
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Deletion",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [
-            18,
-            37
-          ],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 20,
-                        "children": []
-                      },
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 37,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [
-            19,
-            18,
-            37
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [
-            19,
-            18,
-            37
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [
-            19,
-            18,
-            37
-          ],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [
-            37
-          ],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "37": {
-          "id": 37,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>X</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "workInProgress": 4,
-    "note": "回溯阶段"
-  },
-  {
-    "currentTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 19,
-                        "children": []
-                      },
-                      {
-                        "id": 20,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [
-            "Snapshot",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": null,
-          "effects": [
-            4
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [
-            "PerformedWork",
-            "Update",
-            "PlacementAndUpdate",
-            "HydratingAndUpdate",
-            "LifecycleEffectMask",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 1,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [
-              {
-                "payload": {
-                  "list": []
-                },
-                "callback": null
-              }
-            ],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "19": {
-          "id": 19,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Deletion",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>B</p>",
-          "effects": [],
-          "nextEffects": [
-            18,
-            37
-          ],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "alternateTree": {
-      "tree": {
-        "id": 1,
-        "children": [
-          {
-            "id": 4,
-            "children": [
-              {
-                "id": 6,
-                "children": [
-                  {
-                    "id": 9,
-                    "children": []
-                  },
-                  {
-                    "id": 10,
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "id": 7,
-                "children": [
-                  {
-                    "id": 14,
-                    "children": []
-                  },
-                  {
-                    "id": 15,
-                    "children": [
-                      {
-                        "id": 20,
-                        "children": []
-                      },
-                      {
-                        "id": 18,
-                        "children": []
-                      },
-                      {
-                        "id": 37,
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "fibers": {
-        "1": {
-          "id": 1,
-          "tag": "HostRoot",
-          "lanes": 0,
-          "childLanes": 1,
-          "elementType": null,
-          "alternate": 1,
-          "flags": [],
-          "stateNode": null,
-          "effects": [
-            19,
-            18,
-            37
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "element": {
-                "$$typeof": "Symbol(react.element)",
-                "type": "function: App",
-                "key": null,
-                "ref": null,
-                "props": {},
-                "_owner": null,
-                "_store": {}
-              }
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "4": {
-          "id": 4,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "App",
-          "alternate": 4,
-          "flags": [],
-          "stateNode": {
-            "name": "App",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [
-            19,
-            18,
-            37
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "6": {
-          "id": 6,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "Header",
-          "alternate": 6,
-          "flags": [],
-          "stateNode": {
-            "name": "Header",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": null
-          },
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": null,
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "7": {
-          "id": 7,
-          "tag": "ClassComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "List",
-          "alternate": 7,
-          "flags": [
-            "PerformedWork",
-            "HostEffectMask"
-          ],
-          "stateNode": {
-            "name": "List",
-            "context": {},
-            "props": {},
-            "refs": {},
-            "state": {
-              "list": [
-                "C",
-                "A",
-                "X"
-              ]
-            }
-          },
-          "effects": [
-            19,
-            18,
-            37
-          ],
-          "nextEffects": [],
-          "updateQueue": {
-            "baseState": {
-              "list": []
-            },
-            "effects": null,
-            "_baseUpdateQueue": [],
-            "_lastEffect": [],
-            "shared": {
-              "pending": []
-            }
-          }
-        },
-        "9": {
-          "id": 9,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h1",
-          "flags": [],
-          "stateNode": "<h1>title</h1>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "10": {
-          "id": 10,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "h2",
-          "flags": [],
-          "stateNode": "<h2>title2</h2>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "14": {
-          "id": 14,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "button",
-          "alternate": 14,
-          "flags": [],
-          "stateNode": "<button>change</button>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "15": {
-          "id": 15,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "div",
-          "alternate": 15,
-          "flags": [],
-          "stateNode": "<div class=\"content\"><p>A</p><p>B</p><p>C</p></div>",
-          "effects": [
-            19,
-            18,
-            37
-          ],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "18": {
-          "id": 18,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 18,
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>A</p>",
-          "effects": [],
-          "nextEffects": [
-            37
-          ],
-          "updateQueue": null
-        },
-        "20": {
-          "id": 20,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "alternate": 20,
-          "flags": [],
-          "stateNode": "<p>C</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        },
-        "37": {
-          "id": 37,
-          "tag": "HostComponent",
-          "lanes": 0,
-          "childLanes": 0,
-          "elementType": "p",
-          "flags": [
-            "Placement",
-            "PlacementAndUpdate",
-            "HostEffectMask"
-          ],
-          "stateNode": "<p>X</p>",
-          "effects": [],
-          "nextEffects": [],
-          "updateQueue": null
-        }
-      }
-    },
-    "workInProgress": 1,
-    "note": "回溯阶段"
+    "workInProgress": "6",
+    "note": "beginWork"
   }
 ]

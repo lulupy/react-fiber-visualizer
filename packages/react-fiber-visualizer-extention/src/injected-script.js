@@ -3,6 +3,8 @@ window.postMessage({
   source: 'my-devtools-extension'
 }, '*')
 
+const originfibers = [];
+
 function getFiberRoot() {
   const fiberRoots = __REACT_DEVTOOLS_GLOBAL_HOOK__.getFiberRoots(1);
   let fiberRoot = null;
@@ -245,8 +247,40 @@ function extractFiber(fiber) {
     updateQueue: processUpdateQueue(fiber.updateQueue),
   };
 }
+
+let currentId = 1;
+function setIDForFiber(fiber) {
+  if(!originfibers.includes(fiber)) {
+    fiber._debugID = currentId;
+    const cloneFiber = {
+      ...fiber,
+      _debugID: currentId,
+    }
+    currentId++;
+    return cloneFiber;
+  }
+  throw new Error('错误');
+}
+
+function setIDForFibers (rootFiber) {
+  function travse(node) {
+    const newNode = setIDForFiber(node);
+    if(node.child) {
+      newNode.child = travse(node.child);
+    }
+    if(node.sibling) {
+      newNode.sibling = travse(node.sibling);
+    }
+    return newNode;
+
+  }
+  return travse(rootFiber);
+}
+
 function fiberToTree(rootFiber) {
+  rootFiber = setIDForFibers(rootFiber);
   const  fibers = {};
+
 
   const tree = {
     id: rootFiber._debugID,
